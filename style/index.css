@@ -1,1 +1,182 @@
 /* Add CSS styling here */
+
+/* CSS Restart*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*CSS Restart End*/
+
+/*Header Start*/
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: row nowrap;
+  padding: 15px;
+  height: 50px;
+  background-color: dimgrey;
+}
+
+.header-container h2 {
+  padding: 5px;
+  font-family: "roboto", sans-serif;
+  font-size: 35px;
+  color: #fff;
+}
+
+.header-container nav a {
+  padding: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(/img/bcg1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-div h1 {
+  font-size: 100px;
+  color: #fff;
+  padding-bottom: 35px;
+}
+
+.main-div button {
+  background: linear-gradient(to top, #ffe838, #fd57bf);
+  border: none;
+  padding: 15px 10px;
+  border-radius: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
