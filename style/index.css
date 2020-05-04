@@ -160,9 +160,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(/img/bcg1.jpg) no-repeat center center;
-  background-size: cover;
+  background-color: dodgerblue;
   height: 100vh;
+  width: 100vw;
 }
 
 .main-div h1 {
@@ -172,6 +172,41 @@ body {
 }
 
 .main-div button {
+  background: linear-gradient(to top, #ffe838, #fd57bf);
+  border: none;
+  padding: 15px 10px;
+  border-radius: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.gallery-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 30px 30px;
+}
+
+.gallery-container img {
+  flex: 0 32%;
+  flex-wrap: wrap;
+  height: 300px;
+  margin-bottom: 2%;
+  object-fit: cover;
+}
+
+footer {
+  height: 150px;
+  background-color: dimgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer button {
   background: linear-gradient(to top, #ffe838, #fd57bf);
   border: none;
   padding: 15px 10px;
