@@ -127,11 +127,12 @@ table {
 }
 /*CSS Restart End*/
 
-/*Header Start*/
 body {
   font-family: "roboto", sans-serif;
+  font-size: 62.5%;
 }
 
+/*Header Start*/
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -145,11 +146,12 @@ body {
 .header-container h2 {
   padding: 5px;
   font-family: "roboto", sans-serif;
-  font-size: 35px;
+  font-size: 2rem;
   color: #fff;
 }
 
 .header-container nav a {
+  font-size: 1rem;
   padding: 20px;
   text-decoration: none;
   color: #fff;
@@ -166,7 +168,7 @@ body {
 }
 
 .main-div h1 {
-  font-size: 100px;
+  font-size: 5rem;
   color: #fff;
   padding-bottom: 35px;
 }
@@ -178,6 +180,7 @@ body {
   border-radius: 0.8rem;
   color: #fff;
   text-transform: uppercase;
+  font-size: 1.3rem;
   font-weight: 800;
 }
 
@@ -214,4 +217,5 @@ footer button {
   color: #fff;
   text-transform: uppercase;
   font-weight: 800;
+  font-size: 1rem;
 }
