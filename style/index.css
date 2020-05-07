@@ -9,7 +9,7 @@
 }
 /*CSS RESTART END*/
 
-/***GLOBAL START****/
+/*GLOBAL START*/
 body {
   font-family: "Roboto", sans-serif;
   font-size: 62.5%;
@@ -24,10 +24,6 @@ section {
   padding: 6rem 0;
 }
 
-img {
-  width: 100%;
-}
-
 a {
   text-decoration: none;
 }
@@ -35,32 +31,32 @@ a {
 
 /*HEADER START*/
 .header-container {
+  background: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.4);
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex: row nowrap;
-  padding: 20px;
-  margin-top: 10px;
-  height: 50px;
+  padding: 10px;
 }
 
 .header-container h2 {
   padding: 5px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 2rem;
-  color: #fff;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #313977;
 }
-
 .header-container nav a {
-  font-size: 1.1rem;
-  font-weight: 300;
-  padding: 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px;
   margin-right: 10px;
   margin-left: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
+  color: #313977;
   position: relative;
 }
 
@@ -71,7 +67,7 @@ nav.top-nav a:before {
   left: 0px;
   bottom: 0px;
   content: "";
-  background: #fff;
+  background: #313977;
   opacity: 0.3;
   transition: all 0.3s;
 }
@@ -79,21 +75,22 @@ nav.top-nav a:before {
 nav.top-nav a:hover:before {
   height: 100%;
 }
+/*HEADER END*/
 
+/*MAIN START*/
 .main-div {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
 }
 
 .main-div h1 {
   font-size: 6rem;
   color: #fff;
-  padding-bottom: 35px;
-  font-weight: 500;
+  padding-bottom: 30px;
+  font-weight: 800;
   text-transform: uppercase;
   text-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
@@ -106,9 +103,8 @@ nav.top-nav a:hover:before {
   color: #313977;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-family: "Roboto", sans-serif;
   font-size: 0.9rem;
-  font-weight: 600;
+  font-weight: 700;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
@@ -121,8 +117,7 @@ nav.top-nav a:hover:before {
   color: #fff;
   transform: translateY(-7px);
 }
-
-/*HEADER END*/
+/*MAIN END*/
 
 /*GALLERY START*/
 #gallery {
@@ -138,7 +133,6 @@ nav.top-nav a:hover:before {
 }
 
 .flex-item {
-  flex: 0 32%;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -146,7 +140,7 @@ nav.top-nav a:hover:before {
 }
 
 .flex-image {
-  width: 500px;
+  width: 200%;
   padding: 10px;
 }
 
@@ -163,7 +157,7 @@ nav.top-nav a:hover:before {
 }
 /*GALLERY END*/
 
-/*Contact Start*/
+/*CONTACT START*/
 #contact {
   padding-bottom: 3.5rem;
 }
@@ -221,9 +215,9 @@ nav.top-nav a:hover:before {
   color: #fff;
   padding: 8px;
 }
-/*Contact End*/
+/*CONTACT END*/
 
-/*Footer Start*/
+/*FOOTER START*/
 .copyright {
   font-size: 0.8rem;
   width: 100%;
@@ -232,4 +226,4 @@ nav.top-nav a:hover:before {
   padding: 2rem 0;
   position: relative;
 }
-/*Footer End*/
+/*FOOTER END*/
